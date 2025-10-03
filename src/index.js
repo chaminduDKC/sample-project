@@ -7,6 +7,10 @@ app.get("/", (req, res)=>{
     res.send("Hello Main Branch")
 })
 
+app.get("/about", (req, res)=>{
+    res.send("About Page")
+})
+
 app.listen(PORT, ()=>{
     console.log("Server is running")
 })
